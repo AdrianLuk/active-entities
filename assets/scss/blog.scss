@@ -1,0 +1,51 @@
+.blog {
+    &-single {
+        .jumbotron {
+            &__banner {
+                background-position: center;
+            }
+        }
+        .featured__image {
+            max-width: 100%;
+            margin: 0 auto 1rem;
+            display: block;
+            @include breakpoint($lg) {
+                max-width: 50%;
+            }
+        }
+        .blog-item {
+            display: block;
+            @include breakpoint($lg) {
+                display: flex;
+                align-items: center;
+                &:nth-child(odd) {
+                    flex-direction: row;
+                    .blog-content {
+                        padding-left: 1.5rem;
+                    }
+                }
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+                    .blog-content {
+                        padding-right: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    &-page {
+        .item {
+            &__image {
+                filter: brightness(0.5);
+            }
+        }
+    }
+}
+.more-blogs {
+    margin-bottom: 2rem;
+    .item {
+        &__image {
+            filter: brightness(0.5);
+        }
+    }
+}

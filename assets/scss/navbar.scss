@@ -1,0 +1,33 @@
+.navbar {
+    justify-content: space-between;
+    &-container {
+        top: 6px;
+    }
+    &-brand {
+        max-width: 70%;
+    }
+    &-nav {
+        .dropdown {
+            &-toggle {
+                color: $dark-grey;
+            }
+            &-menu {
+                position: absolute;
+            }
+            &-item {
+                &:focus {
+                    color: $white;
+                    background-color: $teal;
+                }
+            }
+        }
+    }
+    &-toggler {
+        border-color: #333 !important;
+    }
+}
+
+.nav-link {
+    color: $dark-grey !important;
+    padding: 10px 15px !important;
+}

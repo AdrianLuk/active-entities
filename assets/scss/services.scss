@@ -1,0 +1,14 @@
+.services {
+    &__section {
+    }
+    &__grid {
+    }
+    &__card {
+        height: 100%;
+        .card-body {
+        }
+        .card-title {
+            font-family: $sub-font-bold;
+        }
+    }
+}

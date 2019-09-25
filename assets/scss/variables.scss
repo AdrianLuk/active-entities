@@ -1,0 +1,19 @@
+$red: #cc2026;
+$teal: #006e87;
+$dark-grey: #6d6e71;
+$light-grey: #f6f6f6;
+$white: #fff;
+$main-font: "OpenSans-Regular";
+$main-font-bold: "OpenSans-Bold";
+$sub-font-regular: "Montserrat-Regular";
+$sub-font-bold: "Montserrat-Bold";
+$md: 768px;
+$lg: 992px;
+$lg: 1200px;
+
+/// responsive mixin
+@mixin breakpoint($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}

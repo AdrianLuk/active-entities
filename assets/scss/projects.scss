@@ -1,0 +1,26 @@
+.projects {
+    &__grid {
+    }
+    &__single {
+        .section__title {
+            margin-bottom: 2rem;
+        }
+    }
+    .grid__item {
+    }
+}
+.content {
+    &__item {
+        margin-bottom: 1.5rem;
+    }
+    &__label {
+        font-size: 1.125rem;
+        font-family: $sub-font-bold;
+    }
+    &__text {
+        margin-bottom: 0;
+    }
+}
+.more-projects {
+    margin-bottom: 2rem;
+}

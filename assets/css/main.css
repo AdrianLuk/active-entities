@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "Proxima-Nova-semibold";
+  src: url("../../assets/fonts/proximanova-semibold-webfont.woff"); }
+
+@font-face {
+  font-family: "Proxima-Nova-Bold";
+  src: url("../../assets/fonts/Proxima-Nova-Bold.otf"); }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../../assets/fonts/OpenSans-Regular.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../../assets/fonts/OpenSans-SemiBold.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../../assets/fonts/OpenSans-Bold.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-SemiboldItalic";
+  src: url("../../assets/fonts/OpenSans-SemiboldItalic.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../../assets/fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../../assets/fonts/Montserrat-Bold.ttf"); }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 14px; }
+
+body {
+  font-family: "OpenSans-Regular"; }
+
+.redbar {
+  height: 6px;
+  background-color: #cc2026; }
+
+.tealbutton {
+  background-color: #006e87;
+  color: #fff;
+  font-family: "OpenSans-Bold";
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: transparent; }
+
+.mw-768 {
+  max-width: 768px; }
+
+.cf {
+  clear: both; }
+
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #006e87;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  #scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff; }
+
+.navbar {
+  justify-content: space-between; }
+  .navbar-container {
+    top: 6px; }
+  .navbar-brand {
+    max-width: 70%; }
+  .navbar-nav .dropdown-toggle {
+    color: #6d6e71; }
+  .navbar-nav .dropdown-menu {
+    position: absolute; }
+  .navbar-nav .dropdown-item:focus {
+    color: #fff;
+    background-color: #006e87; }
+  .navbar-toggler {
+    border-color: #333 !important; }
+
+.nav-link {
+  color: #6d6e71 !important;
+  padding: 10px 15px !important; }
+
+.jumbotron__banner {
+  padding: 3rem 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px; }
+  @media screen and (min-width: 768px) {
+    .jumbotron__banner {
+      margin-top: 85px; } }
+  @media screen and (min-width: 1200px) {
+    .jumbotron__banner {
+      margin-top: 100px;
+      padding: 3rem 0 1rem; } }
+
+.jumbotron__content .bread-crumb__link {
+  color: #fff; }
+
+.jumbotron__header {
+  text-transform: uppercase;
+  font-family: "Proxima-Nova-Bold";
+  color: #fff;
+  font-size: 1.5rem; }
+  @media screen and (min-width: 768px) {
+    .jumbotron__header {
+      font-size: 2.25rem; } }
+  @media screen and (min-width: 1200px) {
+    .jumbotron__header {
+      margin-bottom: 1rem;
+      font-size: 3.25rem; } }
+
+.jumbotron__cta {
+  padding: 3rem 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (min-width: 1200px) {
+    .jumbotron__cta {
+      padding: 3rem 0 3rem; } }
+  .jumbotron__cta .jumbotron__title-main {
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold"; }
+    @media screen and (min-width: 1200px) {
+      .jumbotron__cta .jumbotron__title-main {
+        font-size: 2.5rem; } }
+  .jumbotron__cta .jumbotron__title-sub {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin-bottom: 1.5rem; }
+    @media screen and (min-width: 1200px) {
+      .jumbotron__cta .jumbotron__title-sub {
+        font-size: 1.5rem; } }
+
+.services__card {
+  height: 100%; }
+  .services__card .card-title {
+    font-family: "Montserrat-Bold"; }
+
+.section {
+  padding: 2rem 1rem; }
+  @media screen and (min-width: 768px) {
+    .section {
+      padding: 2.5rem 1rem; } }
+  @media screen and (min-width: 1200px) {
+    .section {
+      padding: 4rem 1rem; } }
+  .section__title {
+    font-family: "Proxima-Nova-Bold";
+    font-size: 2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+    @media screen and (min-width: 768px) {
+      .section__title {
+        font-size: 2.5rem; } }
+    .section__title-red {
+      color: #cc2026; }
+    .section__title-centered {
+      text-align: center; }
+  .section__text {
+    line-height: 2; }
+    .section__text-centered {
+      text-align: center; }
+  .section--offwhite {
+    background-color: #f6f6f6; }
+
+.partner-section {
+  margin: auto;
+  text-align: center; }
+
+.contact-cta {
+  background-color: #006e87;
+  padding: 1rem 0; }
+  @media screen and (min-width: 1200px) {
+    .contact-cta {
+      padding: 2rem 0; } }
+  .contact-cta .row .content {
+    text-align: center; }
+    .contact-cta .row .content .title {
+      text-transform: uppercase;
+      font-family: "OpenSans-Bold"; }
+      @media screen and (min-width: 1200px) {
+        .contact-cta .row .content .title {
+          font-size: 2.5rem; } }
+    @media screen and (min-width: 768px) {
+      .contact-cta .row .content .text {
+        margin-bottom: 0; } }
+    .contact-cta .row .content .text-link {
+      font-family: "Montserrat-Bold"; }
+  .contact-cta .row .cta {
+    text-align: center; }
+    .contact-cta .row .cta .btn-cta {
+      background-color: #fff;
+      color: #006e87;
+      font-family: "Montserrat-Bold";
+      padding: 10px 20px;
+      text-transform: uppercase; }
+    .contact-cta .row .cta .fa {
+      color: #006e87; }
+
+.footer__contacts__item {
+  text-align: center;
+  margin: 0 auto 0.5rem; }
+  @media screen and (min-width: 768px) {
+    .footer__contacts__item {
+      text-align: left;
+      margin: 0 auto; } }
+  .footer__contacts__item .icon .fa {
+    width: 56px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ccc;
+    border-radius: 50%; }
+  .footer__contacts__item .text__label {
+    color: #ccc;
+    margin-bottom: 0;
+    font-family: "OpenSans-Bold"; }
+  .footer__contacts__item .text__content {
+    color: #fff;
+    font-family: "OpenSans-Bold"; }
+
+.footer__copyright {
+  color: #aaa;
+  text-align: center; }
+
+.item__link {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 1rem auto; }
+
+.item__container:hover .item__content {
+  transition: all 0.5s;
+  background: rgba(255, 255, 255, 0.95); }
+
+.item__container:hover .item__title {
+  transition: color 0.5s, margin-bottom 0.5s;
+  text-shadow: none;
+  color: #cc2026;
+  margin-bottom: 2rem; }
+
+.item__container:hover .item__learn-more {
+  transition: all 0.5s;
+  color: #333;
+  opacity: 1;
+  display: block; }
+
+.item__content {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.item__title {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  text-shadow: 1px 1px 10px #000; }
+
+.item__learn-more {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  opacity: 0;
+  display: none; }
+  .item__learn-more-text {
+    margin: 0 1rem; }
+
+.projects__single .section__title {
+  margin-bottom: 2rem; }
+
+.content__item {
+  margin-bottom: 1.5rem; }
+
+.content__label {
+  font-size: 1.125rem;
+  font-family: "Montserrat-Bold"; }
+
+.content__text {
+  margin-bottom: 0; }
+
+.more-projects {
+  margin-bottom: 2rem; }
+
+.blog-single .jumbotron__banner {
+  background-position: center; }
+
+.blog-single .featured__image {
+  max-width: 100%;
+  margin: 0 auto 1rem;
+  display: block; }
+  @media screen and (min-width: 1200px) {
+    .blog-single .featured__image {
+      max-width: 50%; } }
+
+.blog-single .blog-item {
+  display: block; }
+  @media screen and (min-width: 1200px) {
+    .blog-single .blog-item {
+      display: flex;
+      align-items: center; }
+      .blog-single .blog-item:nth-child(odd) {
+        flex-direction: row; }
+        .blog-single .blog-item:nth-child(odd) .blog-content {
+          padding-left: 1.5rem; }
+      .blog-single .blog-item:nth-child(even) {
+        flex-direction: row-reverse; }
+        .blog-single .blog-item:nth-child(even) .blog-content {
+          padding-right: 1.5rem; } }
+
+.blog-page .item__image {
+  filter: brightness(0.5); }
+
+.more-blogs {
+  margin-bottom: 2rem; }
+  .more-blogs .item__image {
+    filter: brightness(0.5); }
