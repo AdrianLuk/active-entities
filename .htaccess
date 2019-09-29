@@ -1,6 +1,6 @@
 
 RewriteOptions inherit
 RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^(www\.)?activeentitiesconsulting\.com [NC]
-RewriteRule ^(.*)$ https://www.activeentitiesconsulting.com/$1 [R=301,NC,L]
+# RewriteCond %{SERVER_PORT} 80
+# RewriteCond %{HTTP_HOST} ^(www\.)?activeentitiesconsulting\.com [NC]
+# RewriteRule ^(.*)$ https://www.activeentitiesconsulting.com/$1 [R=301,NC,L]

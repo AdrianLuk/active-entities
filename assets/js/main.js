@@ -1,6 +1,6 @@
 import { projects } from "./projects.js";
 import { blogs } from "./blog.js";
-const assetDirectory = "/assets/images/";
+const assetDirectory = "../assets/images/";
 // console.log(projects);
 $(document).ready(function() {
     // loop through projects pulled in from projects.js and output html
@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
     if ($("#blog-grid")) {
         blogs.map(blog => {
-            $("#blog-grid").append(`<a href="${
+            $("#blog-grid").append(`<a href="../${
                 blog.url ? blog.url : `javacript:;`
             }" class="item__link">
                 <div class="item__container">

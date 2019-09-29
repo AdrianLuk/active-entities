@@ -1006,7 +1006,7 @@
                         </li>
                         <li><a href="about.php">ABOUT US</a></li>
                         <li><a href="projects.php">PROJECTS</a></li>
-                        <li><a href="/blog">BLOG</a></li>
+                        <li><a href="blog">BLOG</a></li>
                         <li><a href="contact.php">CONTACT</a></li>
                         <li class="freeconsultationbtn">
                             <a href="contact.php" style="padding-top: 1%;">
@@ -1376,16 +1376,16 @@
                             <div class="panel-body" style="padding: 20px !important;">
                                 <h2 align="center" class="free_consl"><b>FREE CONSULTATION</b> </h2>
                                 <?php if (
-                                    isset($_GET['msg']) &&
-                                    $_GET['msg'] == 1
-                                ) {
-                                    echo '<p style="text-align: center; color: green; font-weight:bold;"> Your mail have been send successfully</p>';
-                                } elseif (
-                                    isset($_GET['msg']) &&
-                                    $_GET['msg'] == 0
-                                ) {
-                                    echo '<p style="text-align: center; color: green;font-weight:bold;"> There was an problem while sending mail please contact us through phone</p>';
-                                } ?>
+    isset($_GET['msg']) &&
+    $_GET['msg'] == 1
+) {
+    echo '<p style="text-align: center; color: green; font-weight:bold;"> Your mail have been send successfully</p>';
+} elseif (
+    isset($_GET['msg']) &&
+    $_GET['msg'] == 0
+) {
+    echo '<p style="text-align: center; color: green;font-weight:bold;"> There was an problem while sending mail please contact us through phone</p>';
+}?>
                                 <p align="center" style="padding-right:40px;padding-left:40px;" class="OpenSans-Regular fcpara">For a free consultation or more information about Active Entities Consulting, please call
                                     <br> <a href="tel:617-529-4613">(617) 529-4613</a> or fill out the form below and have one of our expert advisors connect with you.</p>
                                 <div class="row">

@@ -13,7 +13,7 @@
             </p>
         </div>
         <div class="col-12 col-lg-2 cta">
-            <a href="/contact.php" class="btn btn-cta">Contact Us <span class="fa fa-arrow-right"></span></a>
+            <a href="../contact.php" class="btn btn-cta">Contact Us <span class="fa fa-arrow-right"></span></a>
         </div>
     </div>
 </div>
@@ -21,7 +21,7 @@
 <footer class="footer bg-dark py-3">
     <div class="container footer__container">
         <div class="footer__logo text-center">
-            <img src="/assets/images/bottom_logo.png" alt="Active Entities Logo" class="img-fluid" />
+            <img src="../assets/images/bottom_logo.png" alt="Active Entities Logo" class="img-fluid" />
         </div>
         <hr class="bg-white" />
         <div class="row footer__contacts justify-content-between">

@@ -1,27 +1,28 @@
 <?php
 // Variables to assign (if applicable):
-// $title 
+// $title
 // $hero_image
 // $logo_image
 // $meta_title
 // $meta_description
 
 $title = "8 Great Ways to Market Your Fitness Facility";
+$meta_title = "8 Great Ways to Market Your Fitness Facility";
 $hero_image = "../assets/images/facility-banner.jpg";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <?php include '../inc/meta-tags.php'; ?>
-    <?php include '../inc/head-imports.php'; ?>
-    <?php include '../inc/gtm-head.php'; ?>
+    <?php include '../inc/meta-tags.php';?>
+    <?php include '../inc/head-imports.php';?>
+    <?php include '../inc/gtm-head.php';?>
 </head>
 
 <body class="blog-single">
-    <?php include '../inc/gtm-body.php'; ?>
-    <?php include '../inc/navbar.php'; ?>
-    <?php include '../inc/single-blog-jumbotron.php'; ?>
+    <?php include '../inc/gtm-body.php';?>
+    <?php include '../inc/navbar.php';?>
+    <?php include '../inc/single-blog-jumbotron.php';?>
     <section class="container py-5">
         <article class="blog-item">
             <img src="../assets/images/facility-banner.jpg" alt="gym image" class="img-fluid featured__image">
@@ -112,10 +113,10 @@ $hero_image = "../assets/images/facility-banner.jpg";
             </div>
         </article>
     </section>
-    <?php include '../inc/more-blogs.php'; ?>
-    <?php include '../inc/footer.php'; ?>
+    <?php include '../inc/more-blogs.php';?>
+    <?php include '../inc/footer.php';?>
     <a href="javascript:void(0);" id="scroll" title="Scroll to Top">Top<span></span></a>
-    <?php include "../inc/footer-imports.php"; ?>
+    <?php include "../inc/footer-imports.php";?>
 </body>
 
 </html>
