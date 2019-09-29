@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
     if ($("#blog-grid")) {
         blogs.map(blog => {
-            $("#blog-grid").append(`<a href="../${
+            $("#blog-grid").append(`<a href="..${
                 blog.url ? blog.url : `javacript:;`
             }" class="item__link">
                 <div class="item__container">
@@ -75,7 +75,7 @@ $(document).ready(function() {
     if ($("#more-blogs")) {
         randomBlogs.map(blog => {
             if (blog[0]) {
-                $("#more-blogs").append(`<a href="${
+                $("#more-blogs").append(`<a href="..${
                     blog[0].url !== "" ? blog[0].url : `javacript:;`
                 }" class="item__link">
                 <div class="item__container">
