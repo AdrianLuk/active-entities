@@ -17,5 +17,12 @@ export const blogs = [
         imageName: "community-cover-square.jpg",
         url:
             "/blog/5-unique-community-fitness-event-ideas-for-your-business.php"
+    },
+    {
+        id: 3,
+        name: "5 Ways to Improve Your Gym's Digital Marketing Strategy ",
+        imageName: "rsz_istock-668717810-min.jpg",
+        url:
+            "/blog/5-ways-to-improve-your-gym-digital-marketing-strategy.php"
     }
 ];
