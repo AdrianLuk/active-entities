@@ -1,8 +1,9 @@
 <?php
 
 $pagename = $_POST['pagename'];
-//$to = "Bobby@activeentitiesconsulting.com";
-$to = "sakthi@webapiguru.com";
+$to = "Bobby@activeentitiesconsulting.com";
+// $to = "sakthi@webapiguru.com";
+// $to = "aluk@elitedigital.ca";
 
 $subject = "FREE CONSULTATION";
 
