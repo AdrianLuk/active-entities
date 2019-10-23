@@ -8,7 +8,7 @@
 
 $title = "5 Ways to Improve Your Gym's Digital Marketing Strategy ";
 $meta_title = "5 Ways to Improve Your Gym's Digital Marketing Strategy ";
-$meta_description = "A great way to make your fitness business stand out is by building relationships with your community. Learn 5 unique community fitness event ideas for your business.";
+$meta_description = "Fitness centres need a great digital marketing strategy to stand out against industry competitors. Read 5 ways to improve your gym's digital marketing strategy.";
 $hero_image = "../assets/images/iStock-962529334-min.jpg";
 ?>
 <!DOCTYPE html>
