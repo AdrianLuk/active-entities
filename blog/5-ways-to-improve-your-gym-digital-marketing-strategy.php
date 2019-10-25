@@ -42,7 +42,7 @@ $hero_image = "../assets/images/iStock-962529334-min.jpg";
         <article class="blog-item">
             <img src="../assets/images/iStock-905819004-min.jpg" alt="market research" class="img-fluid featured__image">
             <div class="blog-content">
-                <h2>Perform extensive market research</h2>
+                <h2>1. Perform extensive market research</h2>
                 <p> Market research is all about finding out what you don’t already know about your existing and
                     potential gym members, and it is a crucial step for properly identifying your target audience.</p>
 
@@ -68,7 +68,7 @@ $hero_image = "../assets/images/iStock-962529334-min.jpg";
         <article class="blog-item">
             <img src="../assets/images/iStock-1145815505-min.jpg" alt="targeted paid advertisements" class="img-fluid featured__image">
             <div class="blog-content">
-                <h2> Invest in targeted paid advertisements</h2>
+                <h2>2. Invest in targeted paid advertisements</h2>
                 <p>With platforms like Google Adwords, Facebook and Instagram, investing in targeted paid advertisements
                     has become a prominent way to pull in specific customers. With these tools, users can narrow down
                     the amount and type of people who see an ad to make sure it lands in front of the right people at
@@ -85,7 +85,7 @@ $hero_image = "../assets/images/iStock-962529334-min.jpg";
         <article class="blog-item">
             <img src="../assets/images/iStock-966295670-min.jpg" alt="strong social media profile" class="img-fluid featured__image">
             <div class="blog-content">
-                <h2> Maintain a strong social media profile</h2>
+                <h2>3. Maintain a strong social media profile</h2>
                 <p>There are several reasons to <a
                         href="https://www.activeentitiesconsulting.com/blog/8-great-ways-to-market-your-fitness-facility.php"
                         target="_blank">prioritize your social media presence</a> as a business. Firstly, people who
@@ -103,7 +103,7 @@ $hero_image = "../assets/images/iStock-962529334-min.jpg";
         <article class="blog-item">
             <img src="../assets/images/iStock-1042380398-min.jpg" alt="email campaign" class="img-fluid featured__image">
             <div class="blog-content">
-                <h2> Launch an email campaign</h2>
+                <h2>4. Launch an email campaign</h2>
                 <p>If email marketing isn’t already on your radar, it might be time to look into it. Emails allow you to
                     reach potential customers that you wouldn’t otherwise be able to get in touch with. It’s important
                     that you look for ways to build your email list without falling to harmful techniques such as <a
@@ -121,7 +121,7 @@ $hero_image = "../assets/images/iStock-962529334-min.jpg";
         <article class="blog-item">
             <img src="../assets/images/iStock-1040307986-min.jpg" alt="website and phone app" class="img-fluid featured__image">
             <div class="blog-content">
-                <h2>Create a user-friendly website and phone app</h2>
+                <h2>5. Create a user-friendly website and phone app</h2>
                 <p> When a potential client is interested in finding out more about your business, one of the first
                     things they will do is check out your website or phone app, so it’s important to make sure both are
                     optimized, responsive and user-friendly. </p>
